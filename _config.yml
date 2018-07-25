@@ -1,3 +1,8 @@
 theme: jekyll-theme-architect
-title: rsans github site
+title: rsans-site
+email: rbn.sans@gmail.com
+twitter_username: rbn_sans
+github_username:  rsans
 
+# Build settings
+markdown: kramdown
