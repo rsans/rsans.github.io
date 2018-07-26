@@ -1,23 +1,41 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="home">
+  <title>Rubén Sans Mudoy | Software Engineer</title>
 
-  <h1 class="page-heading">Posts</h1>
+  <link rel="icon" href="favicon.ico" type="image/png" />
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/landing/reset.css">
+  <link rel="stylesheet" href="assets/css/landing/styles.css">
+  <link rel="stylesheet" href="assets/css/landing/themes/grey-white.css">
+  <!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
+  <!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
+</head>
+<body>
+<main>
+  <div class="intro">Hello, I'm Rubén Sans Mudoy</div>
+  <div class="tagline">Software Enginner | Code Fanatic </div>
+  <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+  <div class="icons-social">
+    <a href="/blog"><i class="fas fa-code"></i></a>
+    <a target="_blank" href="https://github.com/rsans"><i class="fab fa-github"></i></a>
+    <a target="_blank" href="https://twitter.com/rbn_sans"><i class="fab fa-twitter"></i></a>
+    <a target="_blank" href="https://stackoverflow.com/story/rsans"><i class="fab fa-stack-overflow"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/rubensans"><i class="fab fa-linkedin"></i></a>
+    <a target="_blank" href="https://medium.com/@rsans"><i class="fab fa-medium"></i></a>
+  </div>
+</main>
+</body>
+</html>
