@@ -1,8 +1,10 @@
 theme: jekyll-theme-architect
-title: rsans-site
+title: rsans
+description: A github page to show my repositories, some notes and pages or interesting third-party repositories
 email: rbn.sans@gmail.com
 twitter_username: rbn_sans
 github_username:  rsans
+linkedin_username:  rubensans
 
 # Build settings
 markdown: kramdown
