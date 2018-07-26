@@ -1,8 +1,10 @@
 /* Theme */
 
 main {
-    background: #485564;
+    background: #2e7bcf url(../../../images/land-header-bg.jpg) 0 0 repeat;
+    background-size: contain;
     color: #FAFAFA;
+
 }
 
 .icons-social a {
